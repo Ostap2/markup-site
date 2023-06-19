@@ -14,17 +14,3 @@ class Switch {
 
 
 
-
-const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
-const carousel = document.querySelector('.carousel');
-
-prevBtn.addEventListener('click', () => {
-  carousel.style.animationPlayState = 'paused';
-  carousel.style.animationDirection = 'reverse';
-});
-
-nextBtn.addEventListener('click', () => {
-  carousel.style.animationPlayState = 'paused';
-  carousel.style.animationDirection = 'normal';
-});

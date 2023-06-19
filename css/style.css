@@ -259,16 +259,7 @@ body,
 input {
 	font: 1em/1.5 sans-serif;
 }
-body {
-	background-color: var(--bg);
-	color: var(--fg);
-	display: flex;
-	height: 100vh;
-	perspective: 480px;
-	transition:
-		background-color var(--trans-dur),
-		color var(--trans-dur);
-}
+
 .switch {
 	animation: switchOff var(--trans-dur) var(--trans-timing1) forwards;
 	border-radius: 1.5em;
